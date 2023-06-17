@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --primary-color: #0f1b4c;
 }
 
@@ -87,7 +87,45 @@ a {
     color: var(--primary-color);
 }
 
-.navbar .action-btn{
+.navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+}
+
+/* Hero */
+
+.hero {
+    margin-top: 130px;
+}
+
+.hero .info{
+    width: 51%;
+}
+
+.hero .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687691;
+}
+
+.hero .title {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.19;
+    color: #000336;
+}
+
+.hero .description {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.hero .hero-cta{
+    min-width: 170px;
 }
