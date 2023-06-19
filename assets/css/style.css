@@ -634,7 +634,11 @@ a {
     width: 28px;
     height: 28px;
     background: #F9F9F9;
-    margin-right: 16px;
+    border-radius: 5px;
+}
+
+.footer .social .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social .social-link:hover {
